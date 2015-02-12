@@ -40,6 +40,15 @@ alias a='ack'
 
 alias rr='rake routes'
 
+alias vin='vagrant ssh'
+alias vup='vagrant up'
+alias valt='vagrant halt -f'
+
+alias 2r='cd ~/flippa/flippa-rails'
+alias 2p='cd ~/flippa/flippa'
+
+alias fox="bx god -c config/god/all.rb && bx god start web"
+
 ermahgerd() {
   curl -d "$*" http://erpers.herokuapp.com/ | say
 }
